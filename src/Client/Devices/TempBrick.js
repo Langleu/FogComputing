@@ -22,6 +22,7 @@ class TempBrick {
         // workaround for mock device
         setInterval(() => { 
             t.getTemperature((temperature) => {
+                mClient.sendMessage('temperature', temperature);
                 console.log('Temperature: ' + temperature/100.0 + ' °C');
             });
         }, 500);        

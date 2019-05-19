@@ -1,5 +1,11 @@
-const router = require('express').Router();
+const express = require('express');
+const mServer = require('./../../MessageHandler/index').mServer;
 
-router.use('/v1', require('./routes/temperature'))
+const app = express();
 
-module.exports = router;
+app.use(require('./routes/temperature'))
+
+module.exports = {
+    path: '/api/v1',
+    handler: app
+}, mServer;

@@ -56,8 +56,8 @@ class MessageServer {
         return humidity.chain().find().data();
     }
 
-    returnTemperatuer() {
-
+    returnTemperature() {
+        return temperature.chain().find().data();
     }
 }
 
