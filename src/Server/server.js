@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const config = require('./../config');
+const mServer = require('./../MessageHandler/index').mServer;
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
@@ -9,7 +10,8 @@ app.use(bodyParser.json());
 app.use(require('./api/index'));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  //mServer.sendMessage('test');
+  res.send(mServer.returnHumidity());
 });
 
 app.listen(config.app.frontendPort, () => {

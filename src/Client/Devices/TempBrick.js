@@ -1,12 +1,11 @@
 const Tinkerforge = require('tinkerforge');
 
 class TempBrick {
-    constructor(ipcon, mClient) {
+    constructor(ipcon, mClient, uID) {
         this.ipcon = ipcon;
         this.mClient = mClient;
-
-        const UID = '6Ct7da';
-        const t = new Tinkerforge.BrickletTemperature(UID, this.ipcon); // Create device object
+        this.UID = uID;
+        const t = new Tinkerforge.BrickletTemperature(this.UID, this.ipcon); // Create device object
 
         /** 
          * should work but doesn't work with current mock 

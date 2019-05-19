@@ -16,6 +16,6 @@ ipcon.connect(HOST, PORT,
 );
 
 ipcon.on(Tinkerforge.IPConnection.CALLBACK_CONNECTED, () => {
-    new TempBrick(ipcon, mClient);
-    new HumidityBrick(ipcon, mClient);
+    new TempBrick(ipcon, mClient, '6Ct7da');
+    new HumidityBrick(ipcon, mClient, '62DrY6');
 });
