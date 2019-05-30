@@ -4,7 +4,8 @@ const client = {
  type: 'client',
  app: {
    port: process.env.PORT || 3000,
-   backendIp: process.env.BACKEND_IP || '127.0.0.1'
+   backendIp: process.env.BACKEND_IP || '127.0.0.1',
+   frontendPort: process.env.FRONTEND_PORT || 8081
  }
 };
 

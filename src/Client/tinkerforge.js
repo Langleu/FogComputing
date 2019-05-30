@@ -1,4 +1,5 @@
 const Tinkerforge = require('tinkerforge');
+const db = require('./../DatabaseHandler/index');
 const HOST = 'localhost';
 const PORT = 4225;
 
@@ -16,6 +17,6 @@ ipcon.connect(HOST, PORT,
 );
 
 ipcon.on(Tinkerforge.IPConnection.CALLBACK_CONNECTED, () => {
-    new TempBrick(ipcon, mClient, '6Ct7da');
-    new HumidityBrick(ipcon, mClient, '62DrY6');
+    new TempBrick(ipcon, mClient, '6Ct7da', db);
+    new HumidityBrick(ipcon, mClient, '62DrY6', db);
 });

@@ -1,8 +1,9 @@
 const router = require('express').Router();
-const mServer = require('./../../../MessageHandler/index').mServer;
+const db = require('./../../../DatabaseHandler/index');
+const temperature = db.addCollection('temperature');
 
 router.get('/temperature', (req, res, next) => {
-    res.send(mServer.returnTemperature());
+    res.send(temperature.chain().find().data());
 });
 
 module.exports = router;

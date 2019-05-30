@@ -15,6 +15,11 @@ Docker
 
 ### Start
 
+#### Install Packages
+```
+npm i
+```
+
 #### Server
 ```
 npm run server

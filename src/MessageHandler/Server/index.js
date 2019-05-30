@@ -1,7 +1,6 @@
 const zmq = require('zeromq');
 const config = require('./../../config');
-const loki = require('lokijs');
-const db = new loki('fog.db');
+const db = require('./../../DatabaseHandler/index');
 const _ = require('lodash');
 
 let identity;
@@ -59,6 +58,7 @@ class MessageServer {
                             //console.log(Date.now() - connectedClients[index].lastMessage);
                             //connectedClients[index].lastMessage = Date.now();
                             sock.send([identity, 'ping', 'server'], null, function (err) {
+                                // TODO: create own queue
                                 if (err != undefined)
                                     connectedClients[index].online = false;
                                 else

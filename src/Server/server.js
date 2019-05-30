@@ -24,15 +24,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-/**
-app.use(require('./api/index'));
-
-app.get('/v1', (req, res) => {
-  //mServer.sendMessage('test');
-  res.send(mServer.returnHumidity());
-});
- */
-
 app.listen(config.app.frontendPort, () => {
   console.log(`Frontend listening on port ${config.app.frontendPort}`);
 });
