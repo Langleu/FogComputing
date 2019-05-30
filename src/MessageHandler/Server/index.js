@@ -67,6 +67,7 @@ class MessageServer {
                         }, 5000);
                     }
                     connectedClients.push({
+                        key: connectedClients.length,
                         buffer: identity,
                         readable: identity.toString('utf8')
                     });

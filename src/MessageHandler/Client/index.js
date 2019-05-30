@@ -6,7 +6,7 @@ let qSock = null;
 class MessageClient {
     constructor() {
         this.sock = zmq.socket('dealer');
-        this.sock.identity = 'peer-livingroom';//`peer-${Math.random().toString(36).substr(2, 9)}`;
+        this.sock.identity = `peer-${Math.random().toString(36).substr(2, 9)}`;
         this.sock.connect(`tcp://${config.app.backendIp}:${config.app.port}`);
         console.log(`Client connected to port ${config.app.port}`);
         qSock = this.sock;

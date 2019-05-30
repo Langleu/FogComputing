@@ -3,7 +3,10 @@ const db = require('./../../../DatabaseHandler/index');
 const humidity = db.addCollection('humidity');
 
 router.get('/humidity', (req, res, next) => {
-    res.send(humidity.chain().find().data());
+    let id = req.query.id;
+    let limit = req.query.limit || 100;
+    
+    res.send(humidity.chain().find({ peer: id }).limit(limit).data());
 });
 
 module.exports = router;
