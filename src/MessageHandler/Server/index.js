@@ -55,8 +55,7 @@ class MessageServer {
                     if (!_.some(connectedClients, { readable: identity.toString('utf8') })) {
                         setInterval(() => {
                             let index = _.findIndex(connectedClients, { readable: identity.toString('utf8')});
-                            //console.log(Date.now() - connectedClients[index].lastMessage);
-                            //connectedClients[index].lastMessage = Date.now();
+                            
                             sock.send([identity, 'ping', 'server'], null, function (err) {
                                 // TODO: create own queue
                                 if (err != undefined)

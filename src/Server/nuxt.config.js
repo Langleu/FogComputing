@@ -38,7 +38,7 @@ module.exports = {
         'nuxt-fontawesome'
     ],
     axios: {
-        baseURL: 'http://localhost:8080'
+        baseURL: process.env.BASE_URL || 'http://localhost:8080'
     },
     fontawesome: {
         component: 'fa',
