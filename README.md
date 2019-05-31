@@ -38,4 +38,3 @@ docker run -p 4225:4225 -it langleu/tfstubserver
 - BACKEND_IP
 - NODE_ENV
 - FRONTEND_PORT
-- BASE_URL
