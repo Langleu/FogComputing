@@ -4,6 +4,7 @@ require('./src/MessageHandler/index');
 
 if (config.type == 'client') {
     require('./src/Client/tinkerforge');
-    //require('./src/Server/server'); // modular local frontend
+    if (config.app.frontend)
+        require('./src/Server/server');
 } else
     require('./src/Server/server');

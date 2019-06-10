@@ -1,4 +1,5 @@
 const Tinkerforge = require('tinkerforge');
+const logger = require('./../../Logger');
 
 class HumidityBrick {
     constructor(ipcon, mClient, uID, db) {
@@ -10,10 +11,10 @@ class HumidityBrick {
 
         setInterval(() => { 
             h.getHumidity((humidity) => {
-                mClient.sendMessage('humidity', humidity);
+                mClient.sendMessage('humidity', JSON.stringify({ value: humidity, time: Date.now() }));
                 db.insert('humidity', humidity, Date.now(), 'local');
 
-                console.log('Humidity: ' + humidity/100.0 + ' %RH');
+                logger.verbose('Humidity: ' + humidity/100.0 + ' %RH');
             });
         }, 1000);        
     }

@@ -2,6 +2,7 @@ const zmq = require('zeromq');
 const config = require('./../../config');
 const db = require('./../../DatabaseHandler/index');
 const _ = require('lodash');
+const logger = require('./../../Logger');
 
 let identity;
 let connectedClients = [];
@@ -14,39 +15,46 @@ class MessageServer {
         this.sock = zmq.socket('router');
         this.sock.bindSync(`tcp://*:${config.app.port}`);
         this.sock.setsockopt(zmq.ZMQ_ROUTER_MANDATORY, 1);
-        console.log(`Server listening on port ${config.app.port}`);
+        logger.info(`Message Server listening on port ${config.app.port}`);
 
         this.startListening(this.sock);
     }
 
-    sendMessage(id = identity, topic, message) {
-        console.log(`Sending following message: ${message}.`);
+    sendMessage = (id = identity, topic, message) => {
+        logger.verbose(`Sending following message: ${message}.`);
         this.sock.send([id, topic, message]);
     }
 
-    startListening(sock) {
+    startListening = (sock) => {
         // can't convert to es6
         this.sock.on('message', function onMessage() {
             let args = Array.apply(null, arguments);
             identity = args[0];
+            let identityReadable = identity.toString('utf8');
 
             let value = args[2].toString('utf8');
             let topic = args[1].toString('utf8');
 
+            if (!_.some(connectedClients, { readable: identityReadable }))
+                sock.send([identity, 'ping', 'server']);
+
             switch (topic) {
                 case 'humidity':
-                    db.insert('humidity', value, Date.now(), identity.toString('utf8'));
+                    value = JSON.parse(value);
+                    db.insert('humidity', value.value, value.time, identityReadable);
                     break;
                 case 'temperature':
-                    db.insert('temperature', value, Date.now(), identity.toString('utf8'));
+                    value = JSON.parse(value);
+                    db.insert('temperature', value.value, value.time, identityReadable);
                     break;
                 case 'illuminance':
-                    db.insert('illuminance', value, Date.now(), identity.toString('utf8'));
+                    value = JSON.parse(value);
+                    db.insert('illuminance', value.value, value.time, identityReadable);
                     break;
                 case 'pong':
-                    if (!_.some(connectedClients, { readable: identity.toString('utf8') })) {
+                    if (!_.some(connectedClients, { readable: identityReadable })) {
                         setInterval(() => {
-                            let index = _.findIndex(connectedClients, { readable: identity.toString('utf8')});
+                            let index = _.findIndex(connectedClients, { readable: identityReadable });
                             
                             sock.send([identity, 'ping', 'server'], null, function (err) {
                                 if (err != undefined)
@@ -59,27 +67,19 @@ class MessageServer {
                     connectedClients.push({
                         key: connectedClients.length,
                         buffer: identity,
-                        readable: identity.toString('utf8')
+                        readable: identityReadable
                     });
                     connectedClients = _.uniqBy(connectedClients, 'readable');
                     break;
                 default:
-                    console.log('error');
+                    logger.error('error');
             }
 
-            console.log(`received a message related to: ${topic} - containing message: ${value}`);
+            logger.verbose(`received a message related to: ${topic} - containing message: ${value}`);
         });
     }
 
-    returnHumidity() {
-        return humidity.chain().find().data();
-    }
-
-    returnTemperature() {
-        return temperature.chain().find().data();
-    }
-
-    returnConnectedClients() {
+    returnConnectedClients = () => {
         return connectedClients;
     }
 }

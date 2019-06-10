@@ -1,4 +1,5 @@
 const Tinkerforge = require('tinkerforge');
+const logger = require('./../Logger');
 const db = require('./../DatabaseHandler/index');
 const HOST = 'localhost';
 const PORT = 4225;
@@ -13,7 +14,7 @@ const ipcon = new Tinkerforge.IPConnection();
 
 ipcon.connect(HOST, PORT,
     (error) => {
-        console.log('Tinkerforge is currently not reachable - Error: ' + error);
+        logger.error('Tinkerforge is currently not reachable - Error: ' + error);
     }
 );
 

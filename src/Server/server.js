@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const config = require('./../config');
+const logger = require('./../Logger');
+
 const {
   Nuxt,
   Builder
@@ -25,5 +27,5 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.listen(config.app.frontendPort, () => {
-  console.log(`Frontend listening on port ${config.app.frontendPort}`);
+  logger.info(`Frontend listening on port ${config.app.frontendPort}`);
 });

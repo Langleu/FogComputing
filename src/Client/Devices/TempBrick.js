@@ -1,4 +1,5 @@
 const Tinkerforge = require('tinkerforge');
+const logger = require('./../../Logger');
 
 class TempBrick {
     constructor(ipcon, mClient, uID, db) {
@@ -10,10 +11,10 @@ class TempBrick {
         // workaround for mock device
         setInterval(() => {
             t.getTemperature((temperature) => {
-                mClient.sendMessage('temperature', temperature);
+                mClient.sendMessage('temperature', JSON.stringify({ value: temperature, time: Date.now() }));
                 db.insert('temperature', temperature, Date.now(), 'local');
 
-                console.log('Temperature: ' + temperature / 100.0 + ' °C');
+                logger.verbose('Temperature: ' + temperature / 100.0 + ' °C');
             });
         }, 1000);
     }

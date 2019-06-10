@@ -112,8 +112,8 @@ export default {
           {
             label: "Illuminance",
             data: y_illu,
-            borderColor: "rgba(75, 192, 192, 1)",
-            backgroundColor: "rgba(75, 192, 192, 0.2)",
+            borderColor: "rgba(187, 192, 42, 1)",
+            backgroundColor: "rgba(197, 192, 42, 0.2)",
             pointRadius: 2,
             pointHoverRadius: 5
           }
@@ -164,7 +164,7 @@ export default {
         labels: x_illu,
         datasets: [
           {
-            label: "Illuminance",
+            label: "Illuminance in lx",
             data: y_illu,
             borderColor: "rgba(187, 192, 42, 1)",
             backgroundColor: "rgba(187, 192, 42, 0.2)",
@@ -177,7 +177,7 @@ export default {
         labels: x_humd,
         datasets: [
           {
-            label: "Humidity",
+            label: "Humidity in %RH",
             data: y_humd,
             borderColor: "rgba(75, 192, 192, 1)",
             backgroundColor: "rgba(75, 192, 192, 0.2)",
@@ -190,7 +190,7 @@ export default {
         labels: x_temp,
         datasets: [
           {
-            label: "Temperature",
+            label: "Temperature in °C",
             data: y_temp,
             borderColor: "rgba(190, 30, 4, 1)",
             backgroundColor: "rgba(190, 30, 4, 0.2)",
@@ -200,6 +200,11 @@ export default {
         ]
       },
       options: {
+        elements: {
+            line: {
+                tension: 0 // disables bezier curves
+            }
+        },
         maintainAspectRatio: false,
         legend: {
           display: false

@@ -1,4 +1,5 @@
 const Tinkerforge = require('tinkerforge');
+const logger = require('./../../Logger');
 
 class AmbientLightBrick {
     constructor(ipcon, mClient, uID, db) {
@@ -10,10 +11,10 @@ class AmbientLightBrick {
 
         setInterval(() => { 
             l.getIlluminance((illuminance) => {
-                mClient.sendMessage('illuminance', illuminance);
+                mClient.sendMessage('illuminance', JSON.stringify({ value: illuminance, time: Date.now() }));
                 db.insert('illuminance', illuminance, Date.now(), 'local');
 
-                console.log('Illuminance: ' + illuminance/100.0 + ' lx');
+                logger.verbose('Illuminance: ' + illuminance/100.0 + ' lx');
             });
         }, 1000);        
     }
