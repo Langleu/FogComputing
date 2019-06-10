@@ -1,0 +1,171 @@
+{
+  "coverage": "31.11%",
+  "expectCount": 90,
+  "actualCount": 28,
+  "files": {
+    "src/Client/Devices/AmbientLightBrick.js": {
+      "expectCount": 7,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2,
+        17,
+        18,
+        19
+      ]
+    },
+    "src/Client/Devices/HumidityBrick.js": {
+      "expectCount": 7,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2,
+        17,
+        18,
+        19
+      ]
+    },
+    "src/Client/Devices/TempBrick.js": {
+      "expectCount": 7,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2,
+        17,
+        18,
+        19
+      ]
+    },
+    "src/Client/tinkerforge.js": {
+      "expectCount": 10,
+      "actualCount": 1,
+      "undocumentLines": [
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18
+      ]
+    },
+    "src/DatabaseHandler/index.js": {
+      "expectCount": 6,
+      "actualCount": 4,
+      "undocumentLines": [
+        1,
+        12
+      ]
+    },
+    "src/Logger.js": {
+      "expectCount": 6,
+      "actualCount": 3,
+      "undocumentLines": [
+        1,
+        2,
+        4
+      ]
+    },
+    "src/MessageHandler/Client/index.js": {
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    "src/MessageHandler/Server/index.js": {
+      "expectCount": 12,
+      "actualCount": 7,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "src/MessageHandler/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3
+      ]
+    },
+    "src/Server/api/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        4
+      ]
+    },
+    "src/Server/api/routes/clients.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "src/Server/api/routes/humidity.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "src/Server/api/routes/illuminance.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "src/Server/api/routes/temperature.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "src/Server/frontend/plugins/vue-chartjs.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/Server/server.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        13,
+        15
+      ]
+    },
+    "src/config.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        1
+      ]
+    }
+  }
+}

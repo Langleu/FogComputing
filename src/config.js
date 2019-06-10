@@ -1,5 +1,8 @@
 const env = process.env.NODE_ENV;
 
+/**
+ * Client related confiog
+ */
 const client = {
  type: 'client',
  app: {
@@ -12,6 +15,9 @@ const client = {
  verbose: process.env.VERBOSE || false
 };
 
+/**
+ * Server related config
+ */
 const server = {
  type: 'server',
  app: {
@@ -21,6 +27,9 @@ const server = {
  verbose: process.env.VERBOSE || false
 };
 
+/**
+ * Creates an object so it easier accessible via the environment variable
+ */
 const config = {
  client,
  server

@@ -25,7 +25,7 @@ const customConfig = {
 };
 
 /**
- * @class
+ * @public
  * Logger class, which allows us to log with colors.
  */
 class Logger {

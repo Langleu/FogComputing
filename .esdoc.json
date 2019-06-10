@@ -1,0 +1,33 @@
+{
+  "source": "./src",
+  "destination": "./docs",
+  "includes": ["\\.js$"],
+  "excludes": ["\\.config\\.js$"],
+  "plugins": [
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "lint": {"enable": true},
+        "coverage": {"enable": true},
+        "accessor": {"access": ["public", "protected", "package", "private"], "autoPrivate": true},
+        "undocumentIdentifier": {"enable": false},
+        "unexportedIdentifier": {"enable": true},
+        "typeInference": {"enable": true}
+      }
+    },
+    {"name": "esdoc-ecmascript-proposal-plugin", "option": {"all": true}},
+    {"name": "esdoc-external-ecmascript-plugin", "option": {"enable": true}},
+    {"name": "esdoc-external-nodejs-plugin", "option": {"enable": true}},
+    {
+      "name": "esdoc-integrate-manual-plugin",
+      "option": {
+        "index": "./README.md",
+        "globalIndex": true,
+        "asset": "./manual/asset",
+        "files": [
+          "./manual/index.md"
+        ]
+      }
+    }
+  ]
+}

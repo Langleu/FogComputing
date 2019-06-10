@@ -9,7 +9,7 @@ const {
   Builder
 } = require('nuxt-edge');
 
-/** requires the nuxt config */
+// requires the nuxt config
 let nuxtConfig = require('./nuxt.config');
 nuxtConfig.dev = !(process.env.NODE_ENV === 'production');
 const nuxt = new Nuxt(nuxtConfig);
@@ -26,6 +26,11 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+/**
+ * Starts the server which includes Frontend and Backend.
+ * Backend is a simple express REST API.
+ * Frontend is based on Nuxt.js which is an abstraction layer of Vue.js.
+ */
 app.listen(config.app.frontendPort, () => {
   logger.info(`Frontend listening on port ${config.app.frontendPort}`);
 });

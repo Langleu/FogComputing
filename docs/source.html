@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href>
+  <title data-ice="title">Source | fog-computing-app</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="An example use case for fog computing using ZeroMQ as communication layer."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fog-computing-app"><meta property="twitter:description" content="An example use case for fog computing using ZeroMQ as communication layer."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-client">client</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-config">config</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-server">server</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#client">Client</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Tinkerforge">Tinkerforge</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#client-devices">Client/Devices</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick.html">AmbientLightBrick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client/Devices/HumidityBrick.js~HumidityBrick.html">HumidityBrick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client/Devices/TempBrick.js~TempBrick.html">TempBrick</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#databasehandler">DatabaseHandler</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/DatabaseHandler/index.js~DatabaseHandler.html">DatabaseHandler</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#messagehandler-client">MessageHandler/Client</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/MessageHandler/Client/index.js~MessageClient.html">MessageClient</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#messagehandler-server">MessageHandler/Server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/MessageHandler/Server/index.js~MessageServer.html">MessageServer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-connectedClients">connectedClients</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">28/90</span></h1>
+
+<table class="files-summary" data-ice="files" data-use-coverage="true">
+  <thead>
+    <tr>
+      <td>File</td>
+      <td>Identifier</td>
+      <td class="coverage">Document</td>
+      <td style="display: none;">Size</td>
+      <td style="display: none;">Lines</td>
+      <td style="display: none;">Updated</td>
+    </tr>
+  </thead>
+  <tbody>
+    
+  <tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Client/Devices/AmbientLightBrick.js.html#errorLines=1,17,18,19,2">src/Client/Devices/AmbientLightBrick.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick.html">AmbientLightBrick</a></span></td>
+      <td class="coverage"><span data-ice="coverage">28 %</span><span data-ice="coverageCount" class="coverage-count">2/7</span></td>
+      <td style="display: none;" data-ice="size">1408 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:23:47 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Client/Devices/HumidityBrick.js.html#errorLines=1,17,18,19,2">src/Client/Devices/HumidityBrick.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/Client/Devices/HumidityBrick.js~HumidityBrick.html">HumidityBrick</a></span></td>
+      <td class="coverage"><span data-ice="coverage">28 %</span><span data-ice="coverageCount" class="coverage-count">2/7</span></td>
+      <td style="display: none;" data-ice="size">1370 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:23:43 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Client/Devices/TempBrick.js.html#errorLines=1,17,18,19,2">src/Client/Devices/TempBrick.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/Client/Devices/TempBrick.js~TempBrick.html">TempBrick</a></span></td>
+      <td class="coverage"><span data-ice="coverage">28 %</span><span data-ice="coverageCount" class="coverage-count">2/7</span></td>
+      <td style="display: none;" data-ice="size">1394 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:23:39 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Client/tinkerforge.js.html#errorLines=11,12,13,16,17,18,6,7,8">src/Client/tinkerforge.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Tinkerforge">Tinkerforge</a></span></td>
+      <td class="coverage"><span data-ice="coverage">10 %</span><span data-ice="coverageCount" class="coverage-count">1/10</span></td>
+      <td style="display: none;" data-ice="size">1049 byte</td>
+      <td style="display: none;" data-ice="lines">29</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:26:03 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/DatabaseHandler/index.js.html#errorLines=1,12">src/DatabaseHandler/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/DatabaseHandler/index.js~DatabaseHandler.html">DatabaseHandler</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">4/6</span></td>
+      <td style="display: none;" data-ice="size">1506 byte</td>
+      <td style="display: none;" data-ice="lines">43</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:30:49 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Logger.js.html#errorLines=1,2,4">src/Logger.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/Logger.js~Logger.html">Logger</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">3/6</span></td>
+      <td style="display: none;" data-ice="size">1265 byte</td>
+      <td style="display: none;" data-ice="lines">59</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 14:37:25 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/MessageHandler/Client/index.js.html#errorLines=1,2,3,5">src/MessageHandler/Client/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/MessageHandler/Client/index.js~MessageClient.html">MessageClient</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">4/8</span></td>
+      <td style="display: none;" data-ice="size">1655 byte</td>
+      <td style="display: none;" data-ice="lines">49</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:32:57 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/MessageHandler/Server/index.js.html#errorLines=1,2,3,4,5">src/MessageHandler/Server/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/MessageHandler/Server/index.js~MessageServer.html">MessageServer</a></span>
+<span><a href="variable/index.html#static-variable-connectedClients">connectedClients</a></span></td>
+      <td class="coverage"><span data-ice="coverage">58 %</span><span data-ice="coverageCount" class="coverage-count">7/12</span></td>
+      <td style="display: none;" data-ice="size">4222 byte</td>
+      <td style="display: none;" data-ice="lines">109</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:07:23 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/MessageHandler/index.js.html#errorLines=1,2,3">src/MessageHandler/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">311 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-05-01 17:57:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/api/index.js.html#errorLines=1,2,4">src/Server/api/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">417 byte</td>
+      <td style="display: none;" data-ice="lines">16</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:37:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/api/routes/clients.js.html#errorLines=1,2">src/Server/api/routes/clients.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">497 byte</td>
+      <td style="display: none;" data-ice="lines">17</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:46:06 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/api/routes/humidity.js.html#errorLines=1,2">src/Server/api/routes/humidity.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">481 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:45:31 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/api/routes/illuminance.js.html#errorLines=1,2">src/Server/api/routes/illuminance.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">490 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:45:17 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/api/routes/temperature.js.html#errorLines=1,2">src/Server/api/routes/temperature.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">490 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:45:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/frontend/plugins/vue-chartjs.js.html#errorLines=3">src/Server/frontend/plugins/vue-chartjs.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">263 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 13:07:53 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/Server/server.js.html#errorLines=1,13,15,2,3,4,5,7">src/Server/server.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/8</span></td>
+      <td style="display: none;" data-ice="size">887 byte</td>
+      <td style="display: none;" data-ice="lines">35</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 15:36:22 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/config.js.html#errorLines=1">src/config.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-client">client</a></span>
+<span><a href="variable/index.html#static-variable-config">config</a></span>
+<span><a href="variable/index.html#static-variable-server">server</a></span></td>
+      <td class="coverage"><span data-ice="coverage">75 %</span><span data-ice="coverageCount" class="coverage-count">3/4</span></td>
+      <td style="display: none;" data-ice="size">786 byte</td>
+      <td style="display: none;" data-ice="lines">38</td>
+      <td style="display: none;" data-ice="updated">2019-06-02 14:36:23 (UTC)</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/Logger.js | fog-computing-app</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="An example use case for fog computing using ZeroMQ as communication layer."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fog-computing-app"><meta property="twitter:description" content="An example use case for fog computing using ZeroMQ as communication layer."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-client">client</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-config">config</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-server">server</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#client">Client</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Tinkerforge">Tinkerforge</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#client-devices">Client/Devices</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick.html">AmbientLightBrick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client/Devices/HumidityBrick.js~HumidityBrick.html">HumidityBrick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client/Devices/TempBrick.js~TempBrick.html">TempBrick</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#databasehandler">DatabaseHandler</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/DatabaseHandler/index.js~DatabaseHandler.html">DatabaseHandler</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#messagehandler-client">MessageHandler/Client</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/MessageHandler/Client/index.js~MessageClient.html">MessageClient</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#messagehandler-server">MessageHandler/Server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/MessageHandler/Server/index.js~MessageServer.html">MessageServer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-connectedClients">connectedClients</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Logger.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const winston = require(&apos;winston&apos;);
+const config = require(&apos;./config&apos;);
+
+const customConfig = {
+    levels: {
+        error: 0,
+        debug: 1,
+        warn: 2,
+        data: 3,
+        info: 4,
+        verbose: 5,
+        silly: 6,
+        custom: 7,
+    },
+    colors: {
+        error: &apos;red&apos;,
+        debug: &apos;blue&apos;,
+        warn: &apos;yellow&apos;,
+        data: &apos;grey&apos;,
+        info: &apos;green&apos;,
+        verbose: &apos;cyan&apos;,
+        silly: &apos;magenta&apos;,
+        custom: &apos;yellow&apos;,
+    },
+};
+
+/**
+ * @public
+ * Logger class, which allows us to log with colors.
+ */
+class Logger {
+    /**
+     * @constructor
+     * @description adds the color palette to the winston module.
+     */
+    constructor() {
+        winston.addColors(customConfig.colors);
+    }
+
+    /**
+     * @description initializes winston.
+     * @returns {Logger}
+     */
+    init() {
+        return winston.createLogger({
+            levels: customConfig.levels,
+            format: winston.format.combine(
+                winston.format.colorize(),
+                winston.format.simple(),
+            ),
+            transports: [
+                new winston.transports.Console(),
+            ],
+            level: (config.verbose) ? &apos;custom&apos; : &apos;info&apos;,
+        });
+    }
+
+}
+
+module.exports = new Logger().init();</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

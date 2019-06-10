@@ -5,13 +5,20 @@ const _ = require('lodash');
 const logger = require('./../../Logger');
 
 let identity;
+/** Array to save all connected clients. */
 let connectedClients = [];
 
-let humidity, temperature;
-
+/**
+ * Messaging Class for the Server component.
+ */
 class MessageServer {
 
+   /**
+   * Constructor for the MessageServer.
+   * @property {object} sock Defines the router socket that represents the type of communication that can be handled.
+   */
     constructor() {
+        /** Describes the kind of socket. In this case a router socket. */
         this.sock = zmq.socket('router');
         this.sock.bindSync(`tcp://*:${config.app.port}`);
         this.sock.setsockopt(zmq.ZMQ_ROUTER_MANDATORY, 1);
@@ -20,11 +27,21 @@ class MessageServer {
         this.startListening(this.sock);
     }
 
+    /**
+     * Sends a message to a specific peer.
+     * @param {string} id Identity of the socket to talk back to a specific peer.
+     * @param {string} topic The related topic that the message will be about.
+     * @param {string} message Actual message content.
+     */
     sendMessage = (id = identity, topic, message) => {
         logger.verbose(`Sending following message: ${message}.`);
         this.sock.send([id, topic, message]);
     }
 
+    /**
+     * Listens to incoming events on the socket.
+     * @param {sock} sock The global socket that the Server will be listening on.
+     */
     startListening = (sock) => {
         // can't convert to es6
         this.sock.on('message', function onMessage() {
@@ -52,6 +69,9 @@ class MessageServer {
                     db.insert('illuminance', value.value, value.time, identityReadable);
                     break;
                 case 'pong':
+                    /**
+                     * Handles the currently connected clients and whether they are still connected
+                     */
                     if (!_.some(connectedClients, { readable: identityReadable })) {
                         setInterval(() => {
                             let index = _.findIndex(connectedClients, { readable: identityReadable });
@@ -79,6 +99,9 @@ class MessageServer {
         });
     }
 
+    /**
+     * @return {Array} Method that returns all currently connected clients as array.
+     */
     returnConnectedClients = () => {
         return connectedClients;
     }

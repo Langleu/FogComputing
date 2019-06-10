@@ -1,0 +1,2834 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 49,
+    "kind": "external",
+    "name": "http~ClientRequest",
+    "externalLink": "https://nodejs.org/dist/latest/docs/api/http.html#http_class_http_clientrequest",
+    "memberof": "src/.external-nodejs.js",
+    "static": true,
+    "longname": "src/.external-nodejs.js~http~ClientRequest",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/Client/Devices/AmbientLightBrick.js",
+    "content": "const Tinkerforge = require('tinkerforge');\nconst logger = require('./../../Logger');\n\n/**\n * AmbientLight Brick based on V3 of the API.\n */\nclass AmbientLightBrick {\n\n    /**\n     * Constructor for the Ambient Brick,\n     * @param {object} ipcon The connection to the Tinkerforge API.\n     * @param {MessageClient} mClient MessageClient to handle messages towards the Server.\n     * @param {string} uID Identifier of the specific Brick that we want to talk to.\n     * @param {DatabaseHandler} db DatabaseHandler to locally save entries in case we want a Frontend.\n     */\n    constructor(ipcon, mClient, uID, db) {\n        this.ipcon = ipcon;\n        this.mClient = mClient;\n        this.UID = uID;\n        \n        const l = new Tinkerforge.BrickletAmbientLightV3(this.UID, this.ipcon); // Create device object\n\n        /**\n         * Callback is currently not working with fake Device.\n         * Workaround ask every second for an update and send it to the Server.\n         */\n        setInterval(() => { \n            l.getIlluminance((illuminance) => {\n                mClient.sendMessage('illuminance', JSON.stringify({ value: illuminance, time: Date.now() }));\n                db.insert('illuminance', illuminance, Date.now(), 'local');\n\n                logger.verbose('Illuminance: ' + illuminance/100.0 + ' lx');\n            });\n        }, 1000);        \n    }\n}\n\nmodule.exports = AmbientLightBrick;",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Client/Devices/AmbientLightBrick.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "Tinkerforge",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~Tinkerforge",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/AmbientLightBrick.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/AmbientLightBrick.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "class",
+    "name": "AmbientLightBrick",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/AmbientLightBrick.js",
+    "importStyle": null,
+    "description": "AmbientLight Brick based on V3 of the API.",
+    "lineNumber": 7,
+    "interface": false
+  },
+  {
+    "__docId__": 54,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick#constructor",
+    "access": "public",
+    "description": "Constructor for the Ambient Brick,",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ipcon",
+        "description": "The connection to the Tinkerforge API."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "MessageClient"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mClient",
+        "description": "MessageClient to handle messages towards the Server."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uID",
+        "description": "Identifier of the specific Brick that we want to talk to."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "DatabaseHandler"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "db",
+        "description": "DatabaseHandler to locally save entries in case we want a Frontend."
+      }
+    ]
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "ipcon",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick",
+    "static": false,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick#ipcon",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "mClient",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick",
+    "static": false,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick#mClient",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "UID",
+    "memberof": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick",
+    "static": false,
+    "longname": "src/Client/Devices/AmbientLightBrick.js~AmbientLightBrick#UID",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/Client/Devices/HumidityBrick.js",
+    "content": "const Tinkerforge = require('tinkerforge');\nconst logger = require('./../../Logger');\n\n/**\n * Humidity Brick based on V2 of the API.\n */\nclass HumidityBrick {\n\n    /**\n     * Constructor for the Humidity Brick,\n     * @param {object} ipcon The connection to the Tinkerforge API.\n     * @param {MessageClient} mClient MessageClient to handle messages towards the Server.\n     * @param {string} uID Identifier of the specific Brick that we want to talk to.\n     * @param {DatabaseHandler} db DatabaseHandler to locally save entries in case we want a Frontend.\n     */\n    constructor(ipcon, mClient, uID, db) {\n        this.ipcon = ipcon;\n        this.mClient = mClient;\n        this.UID = uID;\n        \n        const h = new Tinkerforge.BrickletHumidityV2(this.UID, this.ipcon); // Create device object\n\n        /**\n         * Callback is currently not working with fake Device.\n         * Workaround ask every second for an update and send it to the Server.\n         */\n        setInterval(() => { \n            h.getHumidity((humidity) => {\n                mClient.sendMessage('humidity', JSON.stringify({ value: humidity, time: Date.now() }));\n                db.insert('humidity', humidity, Date.now(), 'local');\n\n                logger.verbose('Humidity: ' + humidity/100.0 + ' %RH');\n            });\n        }, 1000);        \n    }\n}\n\nmodule.exports = HumidityBrick;",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Client/Devices/HumidityBrick.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "Tinkerforge",
+    "memberof": "src/Client/Devices/HumidityBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/HumidityBrick.js~Tinkerforge",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/HumidityBrick.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/Client/Devices/HumidityBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/HumidityBrick.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/HumidityBrick.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "class",
+    "name": "HumidityBrick",
+    "memberof": "src/Client/Devices/HumidityBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/HumidityBrick.js~HumidityBrick",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/HumidityBrick.js",
+    "importStyle": null,
+    "description": "Humidity Brick based on V2 of the API.",
+    "lineNumber": 7,
+    "interface": false
+  },
+  {
+    "__docId__": 62,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Client/Devices/HumidityBrick.js~HumidityBrick",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client/Devices/HumidityBrick.js~HumidityBrick#constructor",
+    "access": "public",
+    "description": "Constructor for the Humidity Brick,",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ipcon",
+        "description": "The connection to the Tinkerforge API."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "MessageClient"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mClient",
+        "description": "MessageClient to handle messages towards the Server."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uID",
+        "description": "Identifier of the specific Brick that we want to talk to."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "DatabaseHandler"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "db",
+        "description": "DatabaseHandler to locally save entries in case we want a Frontend."
+      }
+    ]
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "name": "ipcon",
+    "memberof": "src/Client/Devices/HumidityBrick.js~HumidityBrick",
+    "static": false,
+    "longname": "src/Client/Devices/HumidityBrick.js~HumidityBrick#ipcon",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "member",
+    "name": "mClient",
+    "memberof": "src/Client/Devices/HumidityBrick.js~HumidityBrick",
+    "static": false,
+    "longname": "src/Client/Devices/HumidityBrick.js~HumidityBrick#mClient",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "UID",
+    "memberof": "src/Client/Devices/HumidityBrick.js~HumidityBrick",
+    "static": false,
+    "longname": "src/Client/Devices/HumidityBrick.js~HumidityBrick#UID",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/Client/Devices/TempBrick.js",
+    "content": "const Tinkerforge = require('tinkerforge');\nconst logger = require('./../../Logger');\n\n/**\n * Temperature Brick based on V1 of the API.\n */\nclass TempBrick {\n\n    /**\n     * Constructor for the Temperature Brick,\n     * @param {object} ipcon The connection to the Tinkerforge API.\n     * @param {MessageClient} mClient MessageClient to handle messages towards the Server.\n     * @param {string} uID Identifier of the specific Brick that we want to talk to.\n     * @param {DatabaseHandler} db DatabaseHandler to locally save entries in case we want a Frontend.\n     */\n    constructor(ipcon, mClient, uID, db) {\n        this.ipcon = ipcon;\n        this.mClient = mClient;\n        this.UID = uID;\n        \n        const t = new Tinkerforge.BrickletTemperature(this.UID, this.ipcon); // Create device object\n        \n        /**\n         * Callback is currently not working with fake Device.\n         * Workaround ask every second for an update and send it to the Server.\n         */\n        setInterval(() => {\n            t.getTemperature((temperature) => {\n                mClient.sendMessage('temperature', JSON.stringify({ value: temperature, time: Date.now() }));\n                db.insert('temperature', temperature, Date.now(), 'local');\n\n                logger.verbose('Temperature: ' + temperature / 100.0 + ' °C');\n            });\n        }, 1000);\n    }\n}\n\nmodule.exports = TempBrick;",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Client/Devices/TempBrick.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "Tinkerforge",
+    "memberof": "src/Client/Devices/TempBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/TempBrick.js~Tinkerforge",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/TempBrick.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/Client/Devices/TempBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/TempBrick.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/TempBrick.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "class",
+    "name": "TempBrick",
+    "memberof": "src/Client/Devices/TempBrick.js",
+    "static": true,
+    "longname": "src/Client/Devices/TempBrick.js~TempBrick",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/Devices/TempBrick.js",
+    "importStyle": null,
+    "description": "Temperature Brick based on V1 of the API.",
+    "lineNumber": 7,
+    "interface": false
+  },
+  {
+    "__docId__": 70,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Client/Devices/TempBrick.js~TempBrick",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client/Devices/TempBrick.js~TempBrick#constructor",
+    "access": "public",
+    "description": "Constructor for the Temperature Brick,",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ipcon",
+        "description": "The connection to the Tinkerforge API."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "MessageClient"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mClient",
+        "description": "MessageClient to handle messages towards the Server."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uID",
+        "description": "Identifier of the specific Brick that we want to talk to."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "DatabaseHandler"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "db",
+        "description": "DatabaseHandler to locally save entries in case we want a Frontend."
+      }
+    ]
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "ipcon",
+    "memberof": "src/Client/Devices/TempBrick.js~TempBrick",
+    "static": false,
+    "longname": "src/Client/Devices/TempBrick.js~TempBrick#ipcon",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "mClient",
+    "memberof": "src/Client/Devices/TempBrick.js~TempBrick",
+    "static": false,
+    "longname": "src/Client/Devices/TempBrick.js~TempBrick#mClient",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "UID",
+    "memberof": "src/Client/Devices/TempBrick.js~TempBrick",
+    "static": false,
+    "longname": "src/Client/Devices/TempBrick.js~TempBrick#UID",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/Client/tinkerforge.js",
+    "content": "/**\n * Tinkerforge Builder, that handles one single connection to the Tinkerforge API.\n * Creates sub modules to connect to specific Bricks.\n */\nconst Tinkerforge = require('tinkerforge');\nconst logger = require('./../Logger');\nconst db = require('./../DatabaseHandler/index');\nconst mClient = require('./../MessageHandler/index').mClient;\n\n// The different kinds of Bricks that are available.\nconst TempBrick = require('./Devices/TempBrick');\nconst HumidityBrick = require('./Devices/HumidityBrick');\nconst AmbientLightBrick = require('./Devices/AmbientLightBrick');\n\n// Connection values for Tinkerforge.\nconst HOST = 'localhost';\nconst PORT = 4225;\nconst ipcon = new Tinkerforge.IPConnection();\n\nipcon.connect(HOST, PORT,\n    (error) => {\n        logger.error('Tinkerforge is currently not reachable - Error: ' + error);\n    }\n);\n\nipcon.on(Tinkerforge.IPConnection.CALLBACK_CONNECTED, () => {\n    new TempBrick(ipcon, mClient, 'dFs', db);\n    new HumidityBrick(ipcon, mClient, 'deY', db);\n    new AmbientLightBrick(ipcon, mClient, 'avN', db);\n});",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Client/tinkerforge.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "name": "Tinkerforge",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~Tinkerforge",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": "Tinkerforge Builder, that handles one single connection to the Tinkerforge API.\nCreates sub modules to connect to specific Bricks.",
+    "lineNumber": 5,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "db",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~db",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "name": "mClient",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~mClient",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "TempBrick",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~TempBrick",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "HumidityBrick",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~HumidityBrick",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "AmbientLightBrick",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~AmbientLightBrick",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "HOST",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~HOST",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "PORT",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~PORT",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "variable",
+    "name": "ipcon",
+    "memberof": "src/Client/tinkerforge.js",
+    "static": true,
+    "longname": "src/Client/tinkerforge.js~ipcon",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Client/tinkerforge.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/DatabaseHandler/index.js",
+    "content": "const loki = require('lokijs');\n\n/**\n * Abstraction for the Database, can be easily replaced with MongoDB or other non SQL DBs.\n */\nclass DatabaseHandler {\n    \n    /**\n     * Initializes the database and created the available collections.\n     */\n    constructor() {\n        this.db = new loki('fog.db');\n\n        this.db.addCollection('humidity');\n        this.db.addCollection('temperature');\n        this.db.addCollection('illuminance');\n    }\n\n    /**\n     * Handles insertions into the Database.\n     * @param {string} collection Into which collection data shall be inserted.\n     * @param {number} value Numeric value.\n     * @param {number} time Numeric value in unix time format.\n     * @param {string} peer Name of the peer that the data belongs to. \n     */\n    insert = (collection, value, time, peer) => {\n        let generic = this.db.getCollection(collection);\n        generic.insert({ value, time, peer });\n    }\n\n    /**\n     * Handles data retrievals from the Database.\n     * @param {string} collection From which collection data shall be received.\n     * @param {string} peer Name of the peer that the data belongs to.\n     * @param {number} limit Numeric value to limit the amount of requested data.\n     */\n    receive = (collection, peer, limit) => {\n        let generic = this.db.getCollection(collection);\n        let data = generic.chain().find({ peer }).simplesort('time', true).limit(limit).data();\n        return data.reverse();\n    }\n}\n\nmodule.exports = new DatabaseHandler();",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/DatabaseHandler/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "name": "loki",
+    "memberof": "src/DatabaseHandler/index.js",
+    "static": true,
+    "longname": "src/DatabaseHandler/index.js~loki",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/DatabaseHandler/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "class",
+    "name": "DatabaseHandler",
+    "memberof": "src/DatabaseHandler/index.js",
+    "static": true,
+    "longname": "src/DatabaseHandler/index.js~DatabaseHandler",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/DatabaseHandler/index.js",
+    "importStyle": null,
+    "description": "Abstraction for the Database, can be easily replaced with MongoDB or other non SQL DBs.",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 88,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/DatabaseHandler/index.js~DatabaseHandler",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/DatabaseHandler/index.js~DatabaseHandler#constructor",
+    "access": "public",
+    "description": "Initializes the database and created the available collections.",
+    "lineNumber": 11
+  },
+  {
+    "__docId__": 89,
+    "kind": "member",
+    "name": "db",
+    "memberof": "src/DatabaseHandler/index.js~DatabaseHandler",
+    "static": false,
+    "longname": "src/DatabaseHandler/index.js~DatabaseHandler#db",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "member",
+    "name": "insert",
+    "memberof": "src/DatabaseHandler/index.js~DatabaseHandler",
+    "static": false,
+    "longname": "src/DatabaseHandler/index.js~DatabaseHandler#insert",
+    "access": "public",
+    "description": "Handles insertions into the Database.",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "collection",
+        "description": "Into which collection data shall be inserted."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "Numeric value."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "time",
+        "description": "Numeric value in unix time format."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "peer",
+        "description": "Name of the peer that the data belongs to."
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "member",
+    "name": "receive",
+    "memberof": "src/DatabaseHandler/index.js~DatabaseHandler",
+    "static": false,
+    "longname": "src/DatabaseHandler/index.js~DatabaseHandler#receive",
+    "access": "public",
+    "description": "Handles data retrievals from the Database.",
+    "lineNumber": 37,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "collection",
+        "description": "From which collection data shall be received."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "peer",
+        "description": "Name of the peer that the data belongs to."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "limit",
+        "description": "Numeric value to limit the amount of requested data."
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/Logger.js",
+    "content": "const winston = require('winston');\nconst config = require('./config');\n\nconst customConfig = {\n    levels: {\n        error: 0,\n        debug: 1,\n        warn: 2,\n        data: 3,\n        info: 4,\n        verbose: 5,\n        silly: 6,\n        custom: 7,\n    },\n    colors: {\n        error: 'red',\n        debug: 'blue',\n        warn: 'yellow',\n        data: 'grey',\n        info: 'green',\n        verbose: 'cyan',\n        silly: 'magenta',\n        custom: 'yellow',\n    },\n};\n\n/**\n * @public\n * Logger class, which allows us to log with colors.\n */\nclass Logger {\n    /**\n     * @constructor\n     * @description adds the color palette to the winston module.\n     */\n    constructor() {\n        winston.addColors(customConfig.colors);\n    }\n\n    /**\n     * @description initializes winston.\n     * @returns {Logger}\n     */\n    init() {\n        return winston.createLogger({\n            levels: customConfig.levels,\n            format: winston.format.combine(\n                winston.format.colorize(),\n                winston.format.simple(),\n            ),\n            transports: [\n                new winston.transports.Console(),\n            ],\n            level: (config.verbose) ? 'custom' : 'info',\n        });\n    }\n\n}\n\nmodule.exports = new Logger().init();",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Logger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "winston",
+    "memberof": "src/Logger.js",
+    "static": true,
+    "longname": "src/Logger.js~winston",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Logger.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "src/Logger.js",
+    "static": true,
+    "longname": "src/Logger.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Logger.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "customConfig",
+    "memberof": "src/Logger.js",
+    "static": true,
+    "longname": "src/Logger.js~customConfig",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Logger.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"levels\": *, \"colors\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "class",
+    "name": "Logger",
+    "memberof": "src/Logger.js",
+    "static": true,
+    "longname": "src/Logger.js~Logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Logger.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 31,
+    "interface": false
+  },
+  {
+    "__docId__": 97,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 36,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@description",
+        "tagValue": "adds the color palette to the winston module."
+      }
+    ]
+  },
+  {
+    "__docId__": 98,
+    "kind": "method",
+    "name": "init",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#init",
+    "access": "public",
+    "description": "",
+    "lineNumber": 44,
+    "unknown": [
+      {
+        "tagName": "@description",
+        "tagValue": "initializes winston."
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Logger}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Logger"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "src/MessageHandler/Client/index.js",
+    "content": "const zmq = require('zeromq');\nconst config = require('./../../config');\nconst logger = require('./../../Logger');\n\nlet qSock = null;\n\n/**\n * Messaging Class for the Client component.\n */\nclass MessageClient {\n\n   /**\n   * Constructor for the MessageServer.\n   * @property {object} sock Defines the router socket that represents the type of communication that can be handled.\n   */\n    constructor() {\n        /** Describes the kind of socket. In this case a dealer socket. */\n        this.sock = zmq.socket('dealer');\n        this.sock.identity = config.identity;\n        this.sock.connect(`tcp://${config.app.backendIp}:${config.app.port}`);\n        logger.info(`Message Client connected to port ${config.app.port}`);\n        qSock = this.sock;\n\n        this.sendMessage('pong', this.sock.identity);\n\n        // can't convert to es6\n        // listens to messages that are received on the socket.\n        this.sock.on('message', function onMessage() {\n            let args = Array.apply(null, arguments);\n            let topic = args[0].toString('utf8');\n\n            if (topic == 'ping')\n                qSock.send(['pong', '']);\n\n            logger.verbose(`[${Date.now()}]received a message related to:`, 'containing message:', args[1].toString('utf8'));\n        });\n    }\n\n    /**\n     * Sends a message to the connected Router.\n     * @param {string} topic Describes the context.\n     * @param {string} message Actual message content.\n     */\n    sendMessage(topic, message) {\n        logger.verbose(`Sending following message: ${this.sock.identity} - ${message}.`);\n        this.sock.send([topic, message]);\n    }\n}\n\nmodule.exports = MessageClient",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/MessageHandler/Client/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "name": "zmq",
+    "memberof": "src/MessageHandler/Client/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Client/index.js~zmq",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Client/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "src/MessageHandler/Client/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Client/index.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Client/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/MessageHandler/Client/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Client/index.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Client/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "qSock",
+    "memberof": "src/MessageHandler/Client/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Client/index.js~qSock",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Client/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "class",
+    "name": "MessageClient",
+    "memberof": "src/MessageHandler/Client/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Client/index.js~MessageClient",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Client/index.js",
+    "importStyle": null,
+    "description": "Messaging Class for the Client component.",
+    "lineNumber": 10,
+    "interface": false
+  },
+  {
+    "__docId__": 105,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/MessageHandler/Client/index.js~MessageClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/MessageHandler/Client/index.js~MessageClient#constructor",
+    "access": "public",
+    "description": "Constructor for the MessageServer.",
+    "lineNumber": 16,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sock",
+        "description": "Defines the router socket that represents the type of communication that can be handled."
+      }
+    ]
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "sock",
+    "memberof": "src/MessageHandler/Client/index.js~MessageClient",
+    "static": false,
+    "longname": "src/MessageHandler/Client/index.js~MessageClient#sock",
+    "access": "public",
+    "description": "Describes the kind of socket. In this case a dealer socket.",
+    "lineNumber": 18,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "method",
+    "name": "sendMessage",
+    "memberof": "src/MessageHandler/Client/index.js~MessageClient",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/MessageHandler/Client/index.js~MessageClient#sendMessage",
+    "access": "public",
+    "description": "Sends a message to the connected Router.",
+    "lineNumber": 44,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "topic",
+        "description": "Describes the context."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Actual message content."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 108,
+    "kind": "file",
+    "name": "src/MessageHandler/Server/index.js",
+    "content": "const zmq = require('zeromq');\nconst config = require('./../../config');\nconst db = require('./../../DatabaseHandler/index');\nconst _ = require('lodash');\nconst logger = require('./../../Logger');\n\nlet identity;\n/** Array to save all connected clients. */\nlet connectedClients = [];\n\n/**\n * Messaging Class for the Server component.\n */\nclass MessageServer {\n\n   /**\n   * Constructor for the MessageServer.\n   * @property {object} sock Defines the router socket that represents the type of communication that can be handled.\n   */\n    constructor() {\n        /** Describes the kind of socket. In this case a router socket. */\n        this.sock = zmq.socket('router');\n        this.sock.bindSync(`tcp://*:${config.app.port}`);\n        this.sock.setsockopt(zmq.ZMQ_ROUTER_MANDATORY, 1);\n        logger.info(`Message Server listening on port ${config.app.port}`);\n\n        this.startListening(this.sock);\n    }\n\n    /**\n     * Sends a message to a specific peer.\n     * @param {string} id Identity of the socket to talk back to a specific peer.\n     * @param {string} topic The related topic that the message will be about.\n     * @param {string} message Actual message content.\n     */\n    sendMessage = (id = identity, topic, message) => {\n        logger.verbose(`Sending following message: ${message}.`);\n        this.sock.send([id, topic, message]);\n    }\n\n    /**\n     * Listens to incoming events on the socket.\n     * @param {sock} sock The global socket that the Server will be listening on.\n     */\n    startListening = (sock) => {\n        // can't convert to es6\n        this.sock.on('message', function onMessage() {\n            let args = Array.apply(null, arguments);\n            identity = args[0];\n            let identityReadable = identity.toString('utf8');\n\n            let value = args[2].toString('utf8');\n            let topic = args[1].toString('utf8');\n\n            if (!_.some(connectedClients, { readable: identityReadable }))\n                sock.send([identity, 'ping', 'server']);\n\n            switch (topic) {\n                case 'humidity':\n                    value = JSON.parse(value);\n                    db.insert('humidity', value.value, value.time, identityReadable);\n                    break;\n                case 'temperature':\n                    value = JSON.parse(value);\n                    db.insert('temperature', value.value, value.time, identityReadable);\n                    break;\n                case 'illuminance':\n                    value = JSON.parse(value);\n                    db.insert('illuminance', value.value, value.time, identityReadable);\n                    break;\n                case 'pong':\n                    /**\n                     * Handles the currently connected clients and whether they are still connected\n                     */\n                    if (!_.some(connectedClients, { readable: identityReadable })) {\n                        setInterval(() => {\n                            let index = _.findIndex(connectedClients, { readable: identityReadable });\n                            \n                            sock.send([identity, 'ping', 'server'], null, function (err) {\n                                if (err != undefined)\n                                    connectedClients[index].online = false;\n                                else\n                                    connectedClients[index].online = true;\n                            });\n                        }, 5000);\n                    }\n                    connectedClients.push({\n                        key: connectedClients.length,\n                        buffer: identity,\n                        readable: identityReadable\n                    });\n                    connectedClients = _.uniqBy(connectedClients, 'readable');\n                    break;\n                default:\n                    logger.error('error');\n            }\n\n            logger.verbose(`received a message related to: ${topic} - containing message: ${value}`);\n        });\n    }\n\n    /**\n     * @return {Array} Method that returns all currently connected clients as array.\n     */\n    returnConnectedClients = () => {\n        return connectedClients;\n    }\n}\n\nmodule.exports = MessageServer;",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/MessageHandler/Server/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 109,
+    "kind": "variable",
+    "name": "zmq",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~zmq",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 110,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 111,
+    "kind": "variable",
+    "name": "db",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~db",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "_",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~_",
+    "access": "private",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "variable",
+    "name": "connectedClients",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~connectedClients",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": "Array to save all connected clients.",
+    "lineNumber": 9,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "class",
+    "name": "MessageServer",
+    "memberof": "src/MessageHandler/Server/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/Server/index.js~MessageServer",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/Server/index.js",
+    "importStyle": null,
+    "description": "Messaging Class for the Server component.",
+    "lineNumber": 14,
+    "interface": false
+  },
+  {
+    "__docId__": 116,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/MessageHandler/Server/index.js~MessageServer",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/MessageHandler/Server/index.js~MessageServer#constructor",
+    "access": "public",
+    "description": "Constructor for the MessageServer.",
+    "lineNumber": 20,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sock",
+        "description": "Defines the router socket that represents the type of communication that can be handled."
+      }
+    ]
+  },
+  {
+    "__docId__": 117,
+    "kind": "member",
+    "name": "sock",
+    "memberof": "src/MessageHandler/Server/index.js~MessageServer",
+    "static": false,
+    "longname": "src/MessageHandler/Server/index.js~MessageServer#sock",
+    "access": "public",
+    "description": "Describes the kind of socket. In this case a router socket.",
+    "lineNumber": 22,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "member",
+    "name": "sendMessage",
+    "memberof": "src/MessageHandler/Server/index.js~MessageServer",
+    "static": false,
+    "longname": "src/MessageHandler/Server/index.js~MessageServer#sendMessage",
+    "access": "public",
+    "description": "Sends a message to a specific peer.",
+    "lineNumber": 36,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": "Identity of the socket to talk back to a specific peer."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "topic",
+        "description": "The related topic that the message will be about."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Actual message content."
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "member",
+    "name": "startListening",
+    "memberof": "src/MessageHandler/Server/index.js~MessageServer",
+    "static": false,
+    "longname": "src/MessageHandler/Server/index.js~MessageServer#startListening",
+    "access": "public",
+    "description": "Listens to incoming events on the socket.",
+    "lineNumber": 45,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "sock"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sock",
+        "description": "The global socket that the Server will be listening on."
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "member",
+    "name": "returnConnectedClients",
+    "memberof": "src/MessageHandler/Server/index.js~MessageServer",
+    "static": false,
+    "longname": "src/MessageHandler/Server/index.js~MessageServer#returnConnectedClients",
+    "access": "public",
+    "description": "",
+    "lineNumber": 105,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": "Method that returns all currently connected clients as array."
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "name": "src/MessageHandler/index.js",
+    "content": "const MessageClient = require('./Client/index');\nconst MessageServer = require('./Server/index');\nconst config = require('./../config');\n\nlet mClient, mServer = null;\n\nif (config.type == 'client')\n    mClient = new MessageClient();\nelse\n    mServer = new MessageServer();\n\nmodule.exports = { mClient, mServer };",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/MessageHandler/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 122,
+    "kind": "variable",
+    "name": "MessageClient",
+    "memberof": "src/MessageHandler/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/index.js~MessageClient",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 123,
+    "kind": "variable",
+    "name": "MessageServer",
+    "memberof": "src/MessageHandler/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/index.js~MessageServer",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 124,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "src/MessageHandler/index.js",
+    "static": true,
+    "longname": "src/MessageHandler/index.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/MessageHandler/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "name": "src/Server/api/index.js",
+    "content": "const express = require('express');\nconst mServer = require('./../../MessageHandler/index').mServer;\n\nconst app = express();\n\n/**\n * Defines all routes that shall be made accessible.\n */\napp.use(require('./routes/temperature'));\napp.use(require('./routes/humidity'));\napp.use(require('./routes/clients'));\napp.use(require('./routes/illuminance'));\n\nmodule.exports = {\n    path: '/api/v1',\n    handler: app\n}, mServer;",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/api/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 126,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/Server/api/index.js",
+    "static": true,
+    "longname": "src/Server/api/index.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 127,
+    "kind": "variable",
+    "name": "mServer",
+    "memberof": "src/Server/api/index.js",
+    "static": true,
+    "longname": "src/Server/api/index.js~mServer",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "src/Server/api/index.js",
+    "static": true,
+    "longname": "src/Server/api/index.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 129,
+    "kind": "file",
+    "name": "src/Server/api/routes/clients.js",
+    "content": "const router = require('express').Router();\nconst mServer = require('./../../../MessageHandler/index').mServer;\n\n/**\n * Client route that returns all connected and previously connected clients.\n * @returns An array containing all clients.\n */\nrouter.get('/clients', (req, res, next) => {\n    if (process.env.NODE_ENV == 'client')\n        res.send([{\n            readable: 'local',\n            online: true\n        }]);\n    res.send(mServer.returnConnectedClients());\n});\n\nmodule.exports = router;\n",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/api/routes/clients.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 130,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/Server/api/routes/clients.js",
+    "static": true,
+    "longname": "src/Server/api/routes/clients.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/clients.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 131,
+    "kind": "variable",
+    "name": "mServer",
+    "memberof": "src/Server/api/routes/clients.js",
+    "static": true,
+    "longname": "src/Server/api/routes/clients.js~mServer",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/clients.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "name": "src/Server/api/routes/humidity.js",
+    "content": "const router = require('express').Router();\nconst db = require('./../../../DatabaseHandler/index');\n\n/**\n * Humidity route that returns value depending on the limit and the id defined in the route.\n * @returns An array containg the last 100 objects that were previously inserted.\n */\nrouter.get('/humidity', (req, res, next) => {\n    let id = req.query.id;\n    let limit = req.query.limit || 100;\n    \n    res.send(db.receive('humidity', id, limit));\n});\n\nmodule.exports = router;\n",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/api/routes/humidity.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 133,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/Server/api/routes/humidity.js",
+    "static": true,
+    "longname": "src/Server/api/routes/humidity.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/humidity.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 134,
+    "kind": "variable",
+    "name": "db",
+    "memberof": "src/Server/api/routes/humidity.js",
+    "static": true,
+    "longname": "src/Server/api/routes/humidity.js~db",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/humidity.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "src/Server/api/routes/illuminance.js",
+    "content": "const router = require('express').Router();\nconst db = require('./../../../DatabaseHandler/index');\n\n/**\n * Illuminance route that returns value depending on the limit and the id defined in the route.\n * @returns An array containg the last 100 objects that were previously inserted.\n */\nrouter.get('/illuminance', (req, res, next) => {\n    let id = req.query.id;\n    let limit = req.query.limit || 100;\n    \n    res.send(db.receive('illuminance', id, limit));\n});\n\nmodule.exports = router;\n",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/api/routes/illuminance.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/Server/api/routes/illuminance.js",
+    "static": true,
+    "longname": "src/Server/api/routes/illuminance.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/illuminance.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 137,
+    "kind": "variable",
+    "name": "db",
+    "memberof": "src/Server/api/routes/illuminance.js",
+    "static": true,
+    "longname": "src/Server/api/routes/illuminance.js~db",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/illuminance.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 138,
+    "kind": "file",
+    "name": "src/Server/api/routes/temperature.js",
+    "content": "const router = require('express').Router();\nconst db = require('./../../../DatabaseHandler/index');\n\n/**\n * Temperature route that returns value depending on the limit and the id defined in the route.\n * @returns An array containg the last 100 objects that were previously inserted.\n */\nrouter.get('/temperature', (req, res, next) => {\n    let id = req.query.id;\n    let limit = req.query.limit || 100;\n    \n    res.send(db.receive('temperature', id, limit));\n});\n\nmodule.exports = router;\n",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/api/routes/temperature.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 139,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/Server/api/routes/temperature.js",
+    "static": true,
+    "longname": "src/Server/api/routes/temperature.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/temperature.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 140,
+    "kind": "variable",
+    "name": "db",
+    "memberof": "src/Server/api/routes/temperature.js",
+    "static": true,
+    "longname": "src/Server/api/routes/temperature.js~db",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/api/routes/temperature.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 141,
+    "kind": "file",
+    "name": "src/Server/frontend/plugins/vue-chartjs.js",
+    "content": "import Vue from 'vue'\nimport {Line, mixins} from 'vue-chartjs';\nconst {reactiveProp} = mixins;\n\nVue.component('my-line', {\n  extends: Line,\n  mixins: [ reactiveProp ],\n  props: ['options'],\n  mounted() {\n    this.renderChart(this.chartData, this.options);\n  }\n});",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/frontend/plugins/vue-chartjs.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 142,
+    "kind": "variable",
+    "name": "reactiveProp",
+    "memberof": "src/Server/frontend/plugins/vue-chartjs.js",
+    "static": true,
+    "longname": "src/Server/frontend/plugins/vue-chartjs.js~reactiveProp",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/frontend/plugins/vue-chartjs.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 143,
+    "kind": "file",
+    "name": "src/Server/server.js",
+    "content": "const express = require('express');\nconst bodyParser = require('body-parser');\nconst app = express();\nconst config = require('./../config');\nconst logger = require('./../Logger');\n\nconst {\n  Nuxt,\n  Builder\n} = require('nuxt-edge');\n\n// requires the nuxt config\nlet nuxtConfig = require('./nuxt.config');\nnuxtConfig.dev = !(process.env.NODE_ENV === 'production');\nconst nuxt = new Nuxt(nuxtConfig);\n\nif (nuxtConfig.dev) {\n  const builder = new Builder(nuxt);\n  builder.build();\n}\n\napp.use(nuxt.render);\n\napp.use(bodyParser.urlencoded({\n  extended: false\n}));\napp.use(bodyParser.json());\n\n/**\n * Starts the server which includes Frontend and Backend.\n * Backend is a simple express REST API.\n * Frontend is based on Nuxt.js which is an abstraction layer of Vue.js.\n */\napp.listen(config.app.frontendPort, () => {\n  logger.info(`Frontend listening on port ${config.app.frontendPort}`);\n});",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/Server/server.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 144,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 145,
+    "kind": "variable",
+    "name": "bodyParser",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~bodyParser",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 146,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 147,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 148,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 149,
+    "kind": "variable",
+    "name": "Nuxt",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~Nuxt",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 150,
+    "kind": "variable",
+    "name": "nuxtConfig",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~nuxtConfig",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 151,
+    "kind": "variable",
+    "name": "nuxt",
+    "memberof": "src/Server/server.js",
+    "static": true,
+    "longname": "src/Server/server.js~nuxt",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/Server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "name": "src/config.js",
+    "content": "const env = process.env.NODE_ENV;\n\n/**\n * Client related confiog\n */\nconst client = {\n type: 'client',\n app: {\n   port: process.env.PORT || 3000,\n   backendIp: process.env.BACKEND_IP || '127.0.0.1',\n   frontendPort: process.env.FRONTEND_PORT || 8080,\n   frontend: process.env.FRONTEND || false,\n },\n identity: process.env.IDENTITY || `peer-${Math.random().toString(36).substr(2, 9)}`,\n verbose: process.env.VERBOSE || false\n};\n\n/**\n * Server related config\n */\nconst server = {\n type: 'server',\n app: {\n   port: process.env.PORT || 3000,\n   frontendPort: process.env.FRONTEND_PORT || 8080\n },\n verbose: process.env.VERBOSE || false\n};\n\n/**\n * Creates an object so it easier accessible via the environment variable\n */\nconst config = {\n client,\n server\n};\n\nmodule.exports = config[env];\n",
+    "static": true,
+    "longname": "/Users/langleu/GitHub/university/FogComputing/src/config.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 153,
+    "kind": "variable",
+    "name": "env",
+    "memberof": "src/config.js",
+    "static": true,
+    "longname": "src/config.js~env",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/config.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 154,
+    "kind": "variable",
+    "name": "client",
+    "memberof": "src/config.js",
+    "static": true,
+    "longname": "src/config.js~client",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/config.js",
+    "importStyle": null,
+    "description": "Client related confiog",
+    "lineNumber": 6,
+    "type": {
+      "types": [
+        "{\"type\": string, \"app\": *, \"identity\": *, \"verbose\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "variable",
+    "name": "server",
+    "memberof": "src/config.js",
+    "static": true,
+    "longname": "src/config.js~server",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/config.js",
+    "importStyle": null,
+    "description": "Server related config",
+    "lineNumber": 21,
+    "type": {
+      "types": [
+        "{\"type\": string, \"app\": *, \"verbose\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 156,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "src/config.js",
+    "static": true,
+    "longname": "src/config.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "fog-computing-app/src/config.js",
+    "importStyle": null,
+    "description": "Creates an object so it easier accessible via the environment variable",
+    "lineNumber": 33,
+    "type": {
+      "types": [
+        "{\"client\": *, \"server\": *}"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# FogComputing\n\nAn application built for the fog computing use case using NodeJs and ZeroMQ.\n\nThe documentation can be found [here](https://langleu.github.io/FogComputing/).\n\n## Getting Started\n\n### Prerequisites\n\n```\nNodeJs >= v12\n```\n```\nDocker\n```\n\n### Start\n\n#### Install Packages\n```\nnpm i\n```\n\n#### Server\n```\nnpm run server\n```\n\n#### Client\n```\nnpm run client\n```\n```\ndocker run -p 4225:4225 -it langleu/tfstubserver\n```\n\n#### Environment Variables\nPlease look at [config.js](./src/config.js) for a better overview and understanding.\n- PORT\n- BACKEND_IP\n- NODE_ENV\n- FRONTEND_PORT\n- VERBOSE\n- BASE_URL\n- FRONTEND\n- IDENTITY",
+    "longname": "/Users/langleu/GitHub/university/FogComputing/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"fog-computing-app\",\n  \"version\": \"0.0.1\",\n  \"description\": \"An example use case for fog computing using ZeroMQ as communication layer.\",\n  \"main\": \"app.js\",\n  \"scripts\": {\n    \"client\": \"NODE_ENV=client node app.js\",\n    \"server\": \"NODE_ENV=server node app.js\",\n    \"docs\": \"esdoc\"\n  },\n  \"author\": \"Langleu\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"@fortawesome/fontawesome-svg-core\": \"^1.2.18\",\n    \"@fortawesome/free-brands-svg-icons\": \"^5.8.2\",\n    \"@fortawesome/free-regular-svg-icons\": \"^5.8.2\",\n    \"@fortawesome/free-solid-svg-icons\": \"^5.8.2\",\n    \"@fortawesome/vue-fontawesome\": \"^0.1.6\",\n    \"@nuxtjs/axios\": \"^5.5.3\",\n    \"body-parser\": \"^1.19.0\",\n    \"bootstrap-vue\": \"^2.0.0-rc.20\",\n    \"chart.js\": \"^2.8.0\",\n    \"express\": \"^4.16.4\",\n    \"jquery\": \"^3.4.1\",\n    \"lodash\": \"^4.17.11\",\n    \"lokijs\": \"^1.5.6\",\n    \"nuxt-edge\": \"^2.7.2-25970410.dbb9f039\",\n    \"nuxt-fontawesome\": \"^0.4.0\",\n    \"tinkerforge\": \"^2.1.22\",\n    \"vue-chartjs\": \"^3.4.2\",\n    \"winston\": \"^3.2.1\",\n    \"zeromq\": \"^5.1.0\"\n  },\n  \"devDependencies\": {\n    \"docdash\": \"^1.1.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-external-ecmascript-plugin\": \"^1.0.0\",\n    \"esdoc-external-nodejs-plugin\": \"^1.0.0\",\n    \"esdoc-integrate-manual-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "/Users/langleu/GitHub/university/FogComputing/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": true,
+    "content": "# FogComputing\n\nAn application built for the fog computing use case using NodeJs and ZeroMQ.\n\nThe documentation can be found [here](https://langleu.github.io/FogComputing/).\n\n## Getting Started\n\n### Prerequisites\n\n```\nNodeJs >= v12\n```\n```\nDocker\n```\n\n### Start\n\n#### Install Packages\n```\nnpm i\n```\n\n#### Server\n```\nnpm run server\n```\n\n#### Client\n```\nnpm run client\n```\n```\ndocker run -p 4225:4225 -it langleu/tfstubserver\n```\n\n#### Environment Variables\nPlease look at [config.js](./src/config.js) for a better overview and understanding.\n- PORT\n- BACKEND_IP\n- NODE_ENV\n- FRONTEND_PORT\n- VERBOSE\n- BASE_URL\n- FRONTEND\n- IDENTITY",
+    "longname": "/Users/langleu/GitHub/university/FogComputing/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualAsset",
+    "longname": "/Users/langleu/GitHub/university/FogComputing/manual/asset",
+    "name": "./manual/asset",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/Users/langleu/GitHub/university/FogComputing/manual/index.md",
+    "name": "./manual/index.md",
+    "content": "# Extra Documentation\nThis contains aditional reading material to briefly understand decisions that were made.\n\n## Idea\nThe idea was to create some sort of IoT Dashboard for the data provided by Tinkerforge.\nWe have client and server components as one application that can run without the need of the other.\nThe client gathers environmental data with Tinkerforge, keeps them local, and seends them to the server, but also offers if wanted a local dashboard.\nThe Server collects all the data provided by the clients and offers an unified interface to see the data.\n\nServer checks every 5 seconds whether all peers are still connected with a ping - pong message.\nClient sends every second all collected environmental data to the server.\n\n## Architecture\n\n### Communication\nFor the communication we used [Zeromq](zeromq.org) to make use of their already defined asynchronious patterns.\nIn the future something like websockets would have probably been a better choice to create a bidirectional communication.\nZeromq takes a lot of work from you but understanding how everything works and also the fact that you can't costumize everything is quite frustrating.\n\nWebsockets on the other would have been quite similiar but don't handle everything in bytes and the construct around it, is rather raw and not as defined in zeromq already.\n\nAs communication pattern we decided for Dealer to Router, as it provides as with a bidrectional channel and the option to talk to specific peers with as many Dealers as we want.\n\nOther options we looked at:\nDealer to Dealer - quite interesting at the first glance, but as soon as you add another peer your application will be killed by Round-robin as some messages are received by Dealer A, some by Dealer B and so on. If you only have two peers then this is a valid option, but as we wanted to be able to add lots of clients therefore this was not an option.\n\nSubscriber / Publisher - it's unreasonable to open two TCP sockets to just communicate in a bidirectional way and on top of that there is no security that other peers might not be listening to the communication, meaning everyone will receive all messages and there is no direct bidirectional communication between two specific peers.\n\n\nOne thing that stuck with me from the lecture the most was, that applications have to be created in a layered fashion.\nIn our case this means that specific parts of the application can be turned off in case the fog node does not have the required computational power.\n\nFirst we have the message layer, in which we have two define option for server/client depending on where the application runs.\nThe server part consists of a frontend and a backend combined as one and could be split up into two parts in the future, if wanted.\n\nThe layered architecture allows us to run a client with frontend as standalone application without the neeed of a server.\n\nZeromq will take care of buffering messages from Dealer to Router, this is currently set to unlimited.\nThe Router won't buffer messages for the simple reason that we will never know whether a Dealer will connect again to the Router and is implemented like that in zeromq and can not be changed. It does make sense as the Router will have an unspecified amount of Dealers and buffering all messages for all Dealers could potentially kill the Router rather quickly.\nTransmitted data is obviously saved in a database.g\n\n### Database\nAs a local mongodb can be quite expensive for small devices we decided to use an inmemory database called [Loki.js](http://lokijs.org/). Without a lot of effort lokijs can be changed to mongodb as their defined functions are rather similiar.\nOn top of that we created a class called `DatabaseHandler` which can easily be switched for another implementation without needing to change any code in the rest of the application.\n\n## Tinkerforge Mock\nThe Tinkerforge Mock is based on the repository provided [here](https://github.com/PlayWithIt/TFStubserver).\n\nIt emulates predefined hardware on IP level and allows to easily connect to the emulated Tinkerforge devices.\n\nFor easy development access we forked the [project](https://github.com/Langleu/TFStubserver) and provided a Dockerfile and [Dockerimage](https://cloud.docker.com/u/langleu/repository/docker/langleu/tfstubserver). This allows to quickly spin up a local Tinkerforge mock.\n\n## Disclaimer\nThe generated docs do not include every comment and for further information please look at the source code itself.\n\nJavascript is not perfect when it comes to automatic creation of documentation as not always OOP style is used.\n\nESDoc does not understand the concept of `require` and thereby wants every single `require` described, hence the low computated coverage.",
+    "static": true,
+    "access": "public"
+  }
+]
