@@ -16,7 +16,8 @@ class DatabaseHandler {
 
     receive = (collection, peer, limit) => {
         let generic = this.db.getCollection(collection);
-        return generic.chain().find({ peer }).limit(limit).data()
+        let data = generic.chain().find({ peer }).simplesort('time', true).limit(limit).data();
+        return data.reverse();
     }
 }
 

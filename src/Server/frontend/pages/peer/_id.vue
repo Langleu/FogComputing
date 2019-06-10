@@ -25,12 +25,17 @@
         <b-tabs card>
           <b-tab title="Temperature" lazy>
             <b-card-text>
-              <my-line v-if="showLine" :data="data_temp" :options="options"></my-line>
+              <my-line v-if="showLine" :chart-data="data_temp" :options="options"></my-line>
             </b-card-text>
           </b-tab>
           <b-tab title="Humidity" lazy>
             <b-card-text>
-              <my-line v-if="showLine" :data="data_humd" :options="options"></my-line>
+              <my-line v-if="showLine" :chart-data="data_humd" :options="options"></my-line>
+            </b-card-text>
+          </b-tab>
+          <b-tab title="Illuminance" lazy>
+            <b-card-text>
+              <my-line v-if="showLine" :chart-data="data_illu" :options="options"></my-line>
             </b-card-text>
           </b-tab>
         </b-tabs>
@@ -45,45 +50,68 @@
 export default {
     methods: {
     async update() {
-        let clients = await this.$axios.$get("/api/v1/clients");
-        this.clients = clients;
+      let clients = await this.$axios.$get("/api/v1/clients");
+      let humidity = await this.$axios.$get("/api/v1/humidity?id=" + this.id);
+      let temperature = await this.$axios.$get("/api/v1/temperature?id=" + this.id);
+      let illuminance = await this.$axios.$get("/api/v1/illuminance?id=" + this.id);
 
-        let humidity = await this.$axios.$get("/api/v1/humidity?id=" + this.id);
-    let temperature = await this.$axios.$get("/api/v1/temperature?id=" + this.id);
-    let x_temp = [];
-    let y_temp = [];
-    let x_humd = [];
-    let y_humd = [];
-    temperature.forEach(t => {
-      x_temp.push(new Date(t.time).toTimeString());
-      y_temp.push(t.value / 100 + Math.random()); // Math.random for dev purposes
-    });
+      let x_temp = [];
+      let y_temp = [];
+      let x_humd = [];
+      let y_humd = [];
+      let x_illu = [];
+      let y_illu = [];
 
-    humidity.forEach(h => {
-      x_humd.push(new Date(h.time).toTimeString());
-      y_humd.push(h.value / 100 - Math.random()); // Math.random for dev purposes
-    });
+      temperature.forEach(t => {
+        x_temp.push(new Date(t.time).toTimeString());
+        y_temp.push(t.value / 100); // Math.random for dev purposes
+      });
 
-    this.data_temp = {
-        labels: x_temp,
+      humidity.forEach(h => {
+        x_humd.push(new Date(h.time).toTimeString());
+        y_humd.push(h.value / 100); // Math.random for dev purposes
+      });
+
+      illuminance.forEach(l => {
+        x_illu.push(new Date(l.time).toTimeString());
+        y_illu.push(l.value / 100);
+      });
+
+      this.clients = clients;
+      this.data_temp = {
+          labels: x_temp,
+          datasets: [
+            {
+              label: "Temperature",
+              data: y_temp,
+              borderColor: "rgba(190, 30, 4, 1)",
+              backgroundColor: "rgba(190, 30, 4, 0.2)",
+              pointRadius: 2,
+              pointHoverRadius: 5
+            }
+          ]
+        };
+
+      this.data_humd = {
+          labels: x_humd,
+          datasets: [
+            {
+              label: "Humidity",
+              data: y_humd,
+              borderColor: "rgba(75, 192, 192, 1)",
+              backgroundColor: "rgba(75, 192, 192, 0.2)",
+              pointRadius: 2,
+              pointHoverRadius: 5
+            }
+          ]
+        };
+
+      this.data_illu = {
+        labels: x_illu,
         datasets: [
           {
-            label: "Temperature",
-            data: y_temp,
-            borderColor: "rgba(190, 30, 4, 1)",
-            backgroundColor: "rgba(190, 30, 4, 0.2)",
-            pointRadius: 2,
-            pointHoverRadius: 5
-          }
-        ]
-      };
-
-    this.data_humd = {
-        labels: x_humd,
-        datasets: [
-          {
-            label: "Humidity",
-            data: y_humd,
+            label: "Illuminance",
+            data: y_illu,
             borderColor: "rgba(75, 192, 192, 1)",
             backgroundColor: "rgba(75, 192, 192, 0.2)",
             pointRadius: 2,
@@ -91,7 +119,7 @@ export default {
           }
         ]
       };
-    }
+      }
     },
   data() {
     return {
@@ -105,23 +133,46 @@ export default {
     let clients = await $axios.$get("/api/v1/clients");
     let humidity = await $axios.$get("/api/v1/humidity?id=" + params.id);
     let temperature = await $axios.$get("/api/v1/temperature?id=" + params.id);
+    let illuminance = await $axios.$get("/api/v1/illuminance?id=" + params.id);
+
     let x_temp = [];
     let y_temp = [];
     let x_humd = [];
     let y_humd = [];
+    let x_illu = [];
+    let y_illu = [];
+
     temperature.forEach(t => {
       x_temp.push(new Date(t.time).toTimeString());
-      y_temp.push(t.value / 100 + Math.random()); // Math.random for dev purposes
+      y_temp.push(t.value / 100);
     });
 
     humidity.forEach(h => {
       x_humd.push(new Date(h.time).toTimeString());
-      y_humd.push(h.value / 100 - Math.random()); // Math.random for dev purposes
+      y_humd.push(h.value / 100);
+    });
+
+    illuminance.forEach(l => {
+      x_illu.push(new Date(l.time).toTimeString());
+      y_illu.push(l.value / 100);
     });
 
     return {
       clients: clients,
       id: params.id,
+      data_illu: {
+        labels: x_illu,
+        datasets: [
+          {
+            label: "Illuminance",
+            data: y_illu,
+            borderColor: "rgba(187, 192, 42, 1)",
+            backgroundColor: "rgba(187, 192, 42, 0.2)",
+            pointRadius: 2,
+            pointHoverRadius: 5
+          }
+        ]
+      },
       data_humd: {
         labels: x_humd,
         datasets: [
