@@ -16,9 +16,6 @@ class MessageServer {
         this.sock.setsockopt(zmq.ZMQ_ROUTER_MANDATORY, 1);
         console.log(`Server listening on port ${config.app.port}`);
 
-        humidity = db.addCollection('humidity');
-        temperature = db.addCollection('temperature');
-
         this.startListening(this.sock);
     }
 
@@ -38,27 +35,20 @@ class MessageServer {
 
             switch (topic) {
                 case 'humidity':
-                    humidity.insert({
-                        value: value,
-                        time: Date.now(),
-                        peer: identity.toString('utf8')
-                    })
+                    db.insert('humidity', value, Date.now(), identity.toString('utf8'));
                     break;
                 case 'temperature':
-                    temperature.insert({
-                        value: value,
-                        time: Date.now(),
-                        peer: identity.toString('utf8')
-                    })
+                    db.insert('temperature', value, Date.now(), identity.toString('utf8'));
+                    break;
+                case 'illuminance':
+                    db.insert('illuminance', value, Date.now(), identity.toString('utf8'));
                     break;
                 case 'pong':
                     if (!_.some(connectedClients, { readable: identity.toString('utf8') })) {
                         setInterval(() => {
                             let index = _.findIndex(connectedClients, { readable: identity.toString('utf8')});
-                            //console.log(Date.now() - connectedClients[index].lastMessage);
-                            //connectedClients[index].lastMessage = Date.now();
+                            
                             sock.send([identity, 'ping', 'server'], null, function (err) {
-                                // TODO: create own queue
                                 if (err != undefined)
                                     connectedClients[index].online = false;
                                 else

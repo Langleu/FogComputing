@@ -7,19 +7,15 @@ class HumidityBrick {
 
         this.UID = uID;
         const h = new Tinkerforge.BrickletHumidityV2(this.UID, this.ipcon); // Create device object
-        const humidityDb = db.addCollection('humidity');
 
         setInterval(() => { 
             h.getHumidity((humidity) => {
                 mClient.sendMessage('humidity', humidity);
-                humidityDb.insert({
-                    value: humidity,
-                    time: Date.now(),
-                    peer: 'local'
-                });
+                db.insert('humidity', humidity, Date.now(), 'local');
+
                 console.log('Humidity: ' + humidity/100.0 + ' %RH');
             });
-        }, 500);        
+        }, 1000);        
     }
 }
 
