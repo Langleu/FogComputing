@@ -27,7 +27,8 @@ class HumidityBrick {
         setInterval(() => { 
             h.getHumidity((humidity) => {
                 mClient.sendMessage('humidity', JSON.stringify({ value: humidity, time: Date.now() }));
-                db.insert('humidity', humidity, Date.now(), 'local');
+                if (JSON.parse(process.env.DATABASE))
+                    db.insert('humidity', humidity, Date.now(), 'local');
 
                 logger.verbose('Humidity: ' + humidity/100.0 + ' %RH');
             });

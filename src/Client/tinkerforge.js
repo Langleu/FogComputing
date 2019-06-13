@@ -4,8 +4,12 @@
  */
 const Tinkerforge = require('tinkerforge');
 const logger = require('./../Logger');
-const db = require('./../DatabaseHandler/index');
+const config = require('./../config');
+let db = require('./../DatabaseHandler/index');
 const mClient = require('./../MessageHandler/index').mClient;
+
+if (!JSON.parse(process.env.DATABASE))
+    db = null;
 
 // The different kinds of Bricks that are available.
 const TempBrick = require('./Devices/TempBrick');

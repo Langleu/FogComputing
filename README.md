@@ -45,3 +45,6 @@ Please look at [config.js](./src/config.js) for a better overview and understand
 - BASE_URL
 - FRONTEND
 - IDENTITY
+
+Example with Frontend running on port 3030.
+BASE_URL=http://localhost:3030 FRONTEND_PORT=3030 npm run server

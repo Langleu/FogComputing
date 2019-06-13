@@ -27,7 +27,8 @@ class TempBrick {
         setInterval(() => {
             t.getTemperature((temperature) => {
                 mClient.sendMessage('temperature', JSON.stringify({ value: temperature, time: Date.now() }));
-                db.insert('temperature', temperature, Date.now(), 'local');
+                if (JSON.parse(process.env.DATABASE))
+                    db.insert('temperature', temperature, Date.now(), 'local');
 
                 logger.verbose('Temperature: ' + temperature / 100.0 + ' °C');
             });

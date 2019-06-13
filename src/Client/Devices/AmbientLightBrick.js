@@ -27,7 +27,8 @@ class AmbientLightBrick {
         setInterval(() => { 
             l.getIlluminance((illuminance) => {
                 mClient.sendMessage('illuminance', JSON.stringify({ value: illuminance, time: Date.now() }));
-                db.insert('illuminance', illuminance, Date.now(), 'local');
+                if (JSON.parse(process.env.DATABASE))
+                    db.insert('illuminance', illuminance, Date.now(), 'local');
 
                 logger.verbose('Illuminance: ' + illuminance/100.0 + ' lx');
             });

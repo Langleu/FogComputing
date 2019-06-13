@@ -35,7 +35,7 @@
           </b-tab>
           <b-tab title="Illuminance" lazy>
             <b-card-text>
-              <my-line v-if="showLine" :chart-data="data_illu" :options="options"></my-line>
+              <my-doughnut :chart-data="data_illu" :options="illu_options"></my-doughnut>
             </b-card-text>
           </b-tab>
         </b-tabs>
@@ -59,8 +59,7 @@ export default {
       let y_temp = [];
       let x_humd = [];
       let y_humd = [];
-      let x_illu = [];
-      let y_illu = [];
+      let illu = (illuminance[illuminance.length - 1] || {}).value;
 
       temperature.forEach(t => {
         x_temp.push(new Date(t.time).toTimeString());
@@ -70,11 +69,6 @@ export default {
       humidity.forEach(h => {
         x_humd.push(new Date(h.time).toTimeString());
         y_humd.push(h.value / 100); // Math.random for dev purposes
-      });
-
-      illuminance.forEach(l => {
-        x_illu.push(new Date(l.time).toTimeString());
-        y_illu.push(l.value / 100);
       });
 
       this.clients = clients;
@@ -107,17 +101,15 @@ export default {
         };
 
       this.data_illu = {
-        labels: x_illu,
-        datasets: [
-          {
-            label: "Illuminance",
-            data: y_illu,
-            borderColor: "rgba(187, 192, 42, 1)",
-            backgroundColor: "rgba(197, 192, 42, 0.2)",
-            pointRadius: 2,
-            pointHoverRadius: 5
-          }
-        ]
+        labels : ["Illuminance",""],
+        datasets: [{
+            label: "Gauge",
+            data : [ illu / 100, 100 - illu / 100],
+            backgroundColor: [
+                "rgba(187, 192, 42, 1)",
+                "rgb(0, 0, 0)"
+            ]
+        }]
       };
       }
     },
@@ -139,8 +131,7 @@ export default {
     let y_temp = [];
     let x_humd = [];
     let y_humd = [];
-    let x_illu = [];
-    let y_illu = [];
+    let illu = (illuminance[illuminance.length - 1] || {}).value;
 
     temperature.forEach(t => {
       x_temp.push(new Date(t.time).toTimeString());
@@ -152,26 +143,31 @@ export default {
       y_humd.push(h.value / 100);
     });
 
-    illuminance.forEach(l => {
-      x_illu.push(new Date(l.time).toTimeString());
-      y_illu.push(l.value / 100);
-    });
-
     return {
       clients: clients,
       id: params.id,
+      illu_options: {
+        circumference: Math.PI,
+        rotation : Math.PI,
+        cutoutPercentage : 80, // precent
+        maintainAspectRatio: false,
+        legend: {
+            display: false
+        },
+        tooltips: {
+            enabled: true
+        }
+      },
       data_illu: {
-        labels: x_illu,
-        datasets: [
-          {
-            label: "Illuminance in lx",
-            data: y_illu,
-            borderColor: "rgba(187, 192, 42, 1)",
-            backgroundColor: "rgba(187, 192, 42, 0.2)",
-            pointRadius: 2,
-            pointHoverRadius: 5
-          }
-        ]
+        labels : ["Illuminance",""],
+        datasets: [{
+            label: "Gauge",
+            data : [ illu / 100, 100 - illu / 100],
+            backgroundColor: [
+                "rgba(187, 192, 42, 1)",
+                "rgb(0, 0, 0)"
+            ]
+        }]
       },
       data_humd: {
         labels: x_humd,
